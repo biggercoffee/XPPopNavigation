@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "TestViewController.h"
 
 @interface ViewController ()
 
@@ -24,6 +25,9 @@
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+- (IBAction)pushTestVC:(id)sender {
+    [self.navigationController pushViewController:[TestViewController new] animated:YES];
 }
 
 @end

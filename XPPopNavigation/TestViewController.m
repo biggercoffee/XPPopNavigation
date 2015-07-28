@@ -21,9 +21,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    self.edgesForExtendedLayout = UIRectEdgeNone;
-    
     self.title = @"test";
+    self.view.backgroundColor = [UIColor whiteColor];
     
     UIView *grayView = [UIView new];
     grayView.backgroundColor = [UIColor grayColor];
